@@ -12,7 +12,7 @@ public class TestController {
 
 	@GetMapping("/message")
 	public ResponseEntity<String>getMessage(){
-		//Changes
+		//Changes to second commit
 		String message = "Hello, World";
 		return new ResponseEntity<String>(message,HttpStatus.OK);
 	}
