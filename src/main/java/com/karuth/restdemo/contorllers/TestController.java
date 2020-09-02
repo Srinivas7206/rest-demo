@@ -12,6 +12,7 @@ public class TestController {
 
 	@GetMapping("/message")
 	public ResponseEntity<String>getMessage(){
+		//Changes
 		String message = "Hello, World";
 		return new ResponseEntity<String>(message,HttpStatus.OK);
 	}
